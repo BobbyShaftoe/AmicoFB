@@ -75,7 +75,7 @@ class Login(unittest.TestCase):
         # NAVIGATE TO AMICO AP
         driver.get("http://www.facebook.com/amicoapp")
         print(driver.current_url)
-        #asertTrue("Not ready", not driver.current_url("False"))
+        #assertTrue("Not ready", not driver.current_url("False"))
         #WebDriverWait(driver, 10).until(lambda driver: driver.current_url)
         #driver.navigation.to("http://www.facebook.com/amicoapp")
 
